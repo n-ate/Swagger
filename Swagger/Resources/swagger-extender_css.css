@@ -1,0 +1,67 @@
+﻿.stack-trace .stack-trace-line {
+    margin: 0 0 0 3em;
+    white-space: nowrap;
+}
+
+.stack-trace .quote-start {
+    display: inline;
+    margin: 0;
+}
+
+.popup-notice.container {
+    background: #FEE;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 12px;
+    box-shadow: rgba(0,0,0,0.7) 5px 3px 14px;
+    font-family: Arial;
+    padding: 0 10px;
+    position: absolute;
+    right: 190px; /*unknown-browsers, not listed below*/
+    text-align: center;
+    top: 0;
+    width: 240px;
+}
+
+    .popup-notice.container.browser-firefox {
+        right: unset;
+        left: 290px;
+    }
+
+    .popup-notice.container.browser-safari {
+        right: 85px;
+    }
+
+    .popup-notice.container.browser-opr {
+        right: 190px;
+    }
+
+    .popup-notice.container.browser-edg {
+        right: 286px;
+    }
+
+.popup-notice .close.action {
+    color: #F00;
+    cursor: pointer;
+    float: right;
+    font-weight: bold;
+    margin: 4px 6px 0 0;
+    width: 0;
+}
+
+.popup-notice .arrow.icon {
+    color: #F00;
+    margin: 0 -6px 0 0;
+}
+
+.popup-notice .popup-block.icon {
+    float: left;
+    margin-top: -8px;
+}
+
+.popup-notice p {
+    text-align: center;
+}
+
+    .popup-notice p.description {
+        font-size: 0.8em;
+    }
