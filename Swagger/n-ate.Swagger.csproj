@@ -10,13 +10,13 @@
     <Authors>n-ate</Authors>
     <Company>n-ate</Company>
     <Copyright>2023</Copyright>
-    <PackageProjectUrl>n-ate-swagger?path=/README.md&amp;_a=preview</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/n-ate/Swagger</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/n-ate/Swagger.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>swagger; swashbuckle; authentication; bearer; login; jwt</PackageTags>
     <Title>n-ate Swagger</Title>
-    <PackageIcon>icon.png</PackageIcon>
+    <PackageIcon>icon.jpg</PackageIcon>
     <Description>The n-ate Swagger package provides tooling common to API projects shortening development time and enhancing Swagger pages for greater utility. The following significant features are available in this package:
 
 - Auto-login for Swagger HTML pages
@@ -47,6 +47,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="..\icon.jpg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Include="..\LICENSE">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
