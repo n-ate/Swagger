@@ -22,6 +22,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "about", "about", "{270A5161
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "n-ate.Swagger", "Swagger\n-ate.Swagger.csproj", "{57F5DF4F-4D5C-44DD-94D0-D6650D01CB6B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{5DD230E0-BDDD-4A6D-BCA6-62E7CDC3F634}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+		.github\workflows\release.yml = .github\workflows\release.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +44,7 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{270A5161-70CD-4F75-93E5-10CC03145EED} = {C46B516F-FB7D-4726-BFAC-34ACD64C92B6}
+		{5DD230E0-BDDD-4A6D-BCA6-62E7CDC3F634} = {C46B516F-FB7D-4726-BFAC-34ACD64C92B6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {26DB418C-71EE-48CE-932F-C9B1E254E35A}
