@@ -24,8 +24,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "n-ate.Swagger", "Swagger\n-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".github", ".github", "{5DD230E0-BDDD-4A6D-BCA6-62E7CDC3F634}"
 	ProjectSection(SolutionItems) = preProject
-		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
 		.github\workflows\release.yml = .github\workflows\release.yml
+		.github\workflows\verify.yml = .github\workflows\verify.yml
 	EndProjectSection
 EndProject
 Global
